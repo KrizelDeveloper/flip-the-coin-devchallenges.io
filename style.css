@@ -1,0 +1,79 @@
+
+:root{
+    --background-color: #404a65;
+    --button-color: #1f6fb0;
+    --text-color: #ecedf0;
+    --box-shadow-border-color: #23649b;
+    --text-shadow-stroke-color: #35383f;
+}
+
+
+body{
+    background-color: var(--background-color);
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    height: 150%;
+    box-shadow: 0px 4px 0px 0px var(--box-shadow-border-color);
+    border: 2px solid var(--box-shadow-border-color);
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    width: 40%;
+    margin-left: 30%;
+}
+
+h1, h2, #heads-or-tails{
+    color: var(--text-color);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    text-shadow: 2px 2px 0px var(--text-shadow-stroke-color);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: var(--text-shadow-stroke-color);
+     
+}
+
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+#heads-or-tails-coin{
+    display:grid;
+    justify-content: center;
+}
+img, #heads-or-tails{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#shadow{
+    margin-left: 17%;
+}
+img{
+    margin-right: 10%;
+}
+#hidden-button{
+    all:unset;
+    cursor: pointer;
+}
+#heads-or-tails{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
