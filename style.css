@@ -19,7 +19,7 @@ button{
     background-color: var(--button-color);
     color: var(--text-color);
     border-radius: 10px;
-    height: 150%;
+    height: 15%;
     box-shadow: 0px 4px 0px 0px var(--box-shadow-border-color);
     border: 2px solid var(--box-shadow-border-color);
     cursor: pointer;
