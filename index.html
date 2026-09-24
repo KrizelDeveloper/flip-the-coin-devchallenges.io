@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="flip the coin application using html, css, and javascript for devchallenges.io">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Flip the Coin</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+    <main>
     <h1>Flip the coin</h1>
     <h2>Press the coin or the button to flip the coin</h2>
     <div id="heads-or-tails-coin">
-        <button id="hidden-button" hidden="true"><img id="coin" src="" alt="heads or tails coin" hidden="true"></button>
+        <button alt="clickable coin" id="hidden-button" hidden="true"><img id="coin" src="" alt="heads or tails coin" hidden="true"></button>
         <img id="shadow" src="./images/shadow.svg" alt="shadow of coin" hidden="true">
     </div>
     <div id="heads-or-tails"></div>
-    <button>RANDOM</button>
+    <button alt="random button that gives heads or tails">RANDOM</button>
     <script src="app.js"></script>
+    </main>
 </body>
 </html>
